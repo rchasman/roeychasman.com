@@ -9,8 +9,8 @@ const links = [
 ]
 
 export default () => (
-  <nav className="tc">
-    <ul className='flex justify-between pv1 ph3'>
+  <nav className="tc mv4">
+    <ul className='flex justify-around ph3'>
       {links.map(({ key, href, label }) => (
         <li className='flex pv1 ph2' key={`nav-link-${href}-${label}`}>
           <a className='blue f6 no-underline' href={href}>{label}</a>

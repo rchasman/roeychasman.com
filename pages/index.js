@@ -11,15 +11,15 @@ const Home = () => (
 
     <Nav />
 
-    <div className='w100'>
-      <div className="tc">
-        <h1 className='ma0 w100 pt5 lh-title f2'>Roey Chasman</h1>
-        <img className='ba pa3 ma3 br5' src='https://avatars.io/twitter/rchasman/large' />
-        <p className='tc mb4 f2'>
+    <div>
+      <div className="tc pt5">
+        <h1 className='lh-title f1 mb5'>Roey Chasman</h1>
+        <img className='ba pa3 mb4 br5' src='https://avatars.io/twitter/rchasman/large' />
+        <p className='f2'>
           CTO, Product Director, Software Architect
         </p>
-        </div>
       </div>
+    </div>
   </div>
 )
 
